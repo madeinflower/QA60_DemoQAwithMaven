@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class BasePage {
     public WebDriver driver;
-    JavascriptExecutor js;
+    public JavascriptExecutor js;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;

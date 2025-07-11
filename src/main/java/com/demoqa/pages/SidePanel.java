@@ -4,13 +4,18 @@ import com.demoqa.pages.alertsFrameWindows.AlertsPage;
 import com.demoqa.pages.alertsFrameWindows.BrowserWindows;
 import com.demoqa.pages.alertsFrameWindows.FramePage;
 import com.demoqa.pages.bookstore.LoginPage;
+import com.demoqa.pages.elements.ButtonsPage;
+import com.demoqa.pages.elements.LinksPage;
+import com.demoqa.pages.elements.TextBoxPage;
 import com.demoqa.pages.interactions.DropablePage;
 import com.demoqa.pages.widgets.MenuPage;
 import com.demoqa.pages.widgets.SelectMenuPage;
 import com.demoqa.pages.widgets.SliderPage;
+import com.demoqa.pages.widgets.ToolTipsPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.w3c.dom.Text;
 
 public class SidePanel extends BasePage{
     public SidePanel(WebDriver driver) {
@@ -90,5 +95,42 @@ public class SidePanel extends BasePage{
     public DropablePage selectDropable() {
         clickWithJS(droppable,0,600);
         return new DropablePage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Tool Tips']")
+    WebElement toolTips;
+    public ToolTipsPage selectToolTips() {
+        clickWithJS(toolTips, 0, 500);
+        return new ToolTipsPage(driver);
+    }
+
+    @FindBy( xpath = "//span[.='Buttons']")
+    WebElement buttons;
+
+
+    public ButtonsPage selectButtons(){
+        click(buttons);
+        return new ButtonsPage(driver);
+    }
+
+    @FindBy( xpath = "//span[.='Text Box']")
+    WebElement textBox;
+
+    public TextBoxPage selectTextBox() {
+        click(textBox);
+        return new TextBoxPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Links']")
+    WebElement links;
+    public LinksPage selectLinks() {
+        clickWithJS(links, 0, 200);
+        return new LinksPage(driver);
+    }
+    @FindBy(xpath = "//span[.='Broken Links - Images']")
+    WebElement broken;
+    public LinksPage selectBrokenLinksImages() {
+        clickWithJS(broken, 0, 300);
+        return new LinksPage(driver);
     }
 }
