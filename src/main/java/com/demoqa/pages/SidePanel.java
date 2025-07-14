@@ -7,6 +7,7 @@ import com.demoqa.pages.bookstore.LoginPage;
 import com.demoqa.pages.elements.ButtonsPage;
 import com.demoqa.pages.elements.LinksPage;
 import com.demoqa.pages.elements.TextBoxPage;
+import com.demoqa.pages.forms.PracticeFormPage;
 import com.demoqa.pages.interactions.DropablePage;
 import com.demoqa.pages.widgets.MenuPage;
 import com.demoqa.pages.widgets.SelectMenuPage;
@@ -15,7 +16,7 @@ import com.demoqa.pages.widgets.ToolTipsPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.w3c.dom.Text;
+
 
 public class SidePanel extends BasePage{
     public SidePanel(WebDriver driver) {
@@ -127,10 +128,19 @@ public class SidePanel extends BasePage{
         clickWithJS(links, 0, 200);
         return new LinksPage(driver);
     }
+
     @FindBy(xpath = "//span[.='Broken Links - Images']")
     WebElement broken;
     public LinksPage selectBrokenLinksImages() {
         clickWithJS(broken, 0, 300);
         return new LinksPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Practice Form']")
+    WebElement practiceForm;
+    public PracticeFormPage selectPracticeForm() {
+        click(practiceForm);
+
+        return new PracticeFormPage(driver);
     }
 }

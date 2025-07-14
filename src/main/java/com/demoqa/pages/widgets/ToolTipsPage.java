@@ -15,6 +15,7 @@ public class ToolTipsPage extends BasePage {
 
     @FindBy(id = "toolTipButton")
     WebElement toolTipsButton;
+
     public ToolTipsPage hoverToToolTips() {
         pause(1000);
         moveWithJS(0, 200);
