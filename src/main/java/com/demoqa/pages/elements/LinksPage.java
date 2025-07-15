@@ -27,13 +27,10 @@ public class LinksPage extends BasePage {
     }
 
     public LinksPage checkBrokenLinks() {
-        for (WebElement element : allLinks) {
+        for (int i = 0; i < allLinks.size(); i++) {
+            WebElement element = allLinks.get(i);
             String url = element.getDomAttribute("href");
-            if (url != null && !url.trim().isEmpty()) {
-                verifyLinks(url);
-            } else {
-                System.out.println("Element without link that is missed: " + element);
-            }
+            verifyLinks(url);
         }
         return this;
     }
