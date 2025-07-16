@@ -17,8 +17,7 @@ public class MenuTest extends TestBase{
 
     @Test
     public void moveToMenuTest() {
-        new MenuPage(driver).selectSubMenu().verifySubMenu()
-        ;
+        new MenuPage(driver).selectSubMenu().verifySubMenu();
 
     }
 }

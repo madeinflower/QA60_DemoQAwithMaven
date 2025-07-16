@@ -1,6 +1,6 @@
 package com.demoqa.tests;
 
-import com.demoqa.pages.config.ApplicationManager;
+import com.demoqa.config.ApplicationManager;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,25 +11,25 @@ import org.testng.annotations.BeforeMethod;
 import java.lang.reflect.Method;
 
 public class TestBase {
-    protected ApplicationManager app = new ApplicationManager(System.getProperty("browser","chrome"));
+    protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", "chrome"));
     Logger logger = LoggerFactory.getLogger(TestBase.class);
     public WebDriver driver;
 
-
     @BeforeMethod
-    public void init(Method method){
-        driver= app.startTest();
+    public void init(Method method) {
+        driver = app.startTest();
         logger.info("Start test: " + method.getName());
     }
 
     @AfterMethod(enabled = true)
-    public void tearDown(ITestResult result){
-        if (result.isSuccess()){
-            logger.info("Test result: Passed" + result.getMethod().getMethodName());
-        }else {
-            logger.error("Test result: Failed" + result.getMethod().getMethodName());
+    public void tearDown(ITestResult result) {
+        if(result.isSuccess()) {
+            logger.info("Test result: PASSED " + result.getMethod().getMethodName());
+        } else {
+            logger.error("Test result: FAILED " + result.getMethod().getMethodName());
         }
         app.stopTest();
     }
+
 
 }

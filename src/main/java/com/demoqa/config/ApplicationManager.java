@@ -1,13 +1,11 @@
-package com.demoqa.pages.config;
+package com.demoqa.config;
 
-import com.demoqa.pages.BasePage;
 import com.demoqa.utils.MyListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 import java.time.Duration;
 
@@ -21,13 +19,13 @@ public class ApplicationManager  {
     }
 
     public WebDriver startTest() {
-        if (browser.equals("chrome")){
-            driver = new ChromeDriver();
+        if (browser.equals("chrome")){driver = new ChromeDriver();
         }else if (browser.equals("firefox")){
             driver = new FirefoxDriver();
         }else if (browser!= null && !browser.equals("chrome")&& !browser.equals("firefox")){
             throw new IllegalArgumentException("Browser entered is not correct");
         }
+
         driver=new EventFiringDecorator(new MyListener()).decorate(driver);
         driver.get("https://demoqa.com");
         driver.manage().window().maximize();

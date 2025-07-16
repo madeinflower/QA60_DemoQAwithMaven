@@ -45,10 +45,11 @@ public class BasePage {
     public void moveWithJS(int x, int y) {
         js.executeScript("window.scrollBy(" + x + "," + y + ")");
     }
-    /*public void typeWithJS(WebElement element,String text,int x,int y){
+
+    public void typeWithJS(WebElement element,String text,int x,int y){
         moveWithJS(x,y);
         type(element,text);
-    }*/
+    }
 
 
     public void hideAd() {

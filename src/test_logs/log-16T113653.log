@@ -1,0 +1,29 @@
+11:36:53.786 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:36:58.829 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: moveToMenuTest
+11:36:59.009 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(4)
+11:36:59.009 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:36:59.062 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(4)
+11:36:59.063 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:36:59.334 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Menu']
+11:36:59.334 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:36:59.360 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Menu']
+11:36:59.361 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:00.521 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='Main Item 2']
+11:37:00.521 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:00.568 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='Main Item 2']
+11:37:00.570 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:00.710 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='SUB SUB LIST »']
+11:37:00.710 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:00.760 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='SUB SUB LIST »']
+11:37:00.760 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:00.897 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='Sub Sub Item 1']
+11:37:00.898 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:00.935 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='Sub Sub Item 1']
+11:37:00.935 [Forwarding actions on session 0be5b301ef7f0cb0be8d1a1e8e6e4153 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:01.070 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='Sub Sub Item 1']
+11:37:01.070 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:01.090 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='Sub Sub Item 1']
+11:37:01.090 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+11:37:01.127 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PassedmoveToMenuTest

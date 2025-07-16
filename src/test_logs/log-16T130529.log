@@ -1,0 +1,4 @@
+13:05:30.187 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+13:05:30.234 [main] WARN  org.testng.internal.Utils -%PARSER_ERROR[kvp]- The test method 'com.demoqa.tests.PracticeFormTests.createStudentAccount' will be skipped since its data provider 'addNewStudentWithCsv' returned an empty array or iterator. 

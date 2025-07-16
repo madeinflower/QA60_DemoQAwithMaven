@@ -14,6 +14,7 @@ public class PracticeFormPage extends BasePage {
         super(driver);
     }
 
+
     @FindBy(id = "firstName")
     WebElement firstName;
     @FindBy(id = "lastName")
@@ -34,8 +35,10 @@ public class PracticeFormPage extends BasePage {
 
     @FindBy(css = "[for='gender-radio-1']")
     WebElement male;
+
     @FindBy(css = "[for='gender-radio-2']")
     WebElement female;
+
     @FindBy(css = "[for='gender-radio-3']")
     WebElement other;
 
@@ -68,35 +71,35 @@ public class PracticeFormPage extends BasePage {
 
     @FindBy(id = "subjectsInput")
     WebElement subjectsInput;
+
     public PracticeFormPage addSubject(String[] subject) {
         for (int i = 0; i < subject.length; i++) {
             if(subject[i] != null) {
-                type(subjectsInput, subject[i]);
+                typeWithJS(subjectsInput, subject[i],0,300);
                 subjectsInput.sendKeys(Keys.ENTER);
             }
         }
         return this;
     }
+
     @FindBy(css = "[for='hobbies-checkbox-1']")
     WebElement sports;
 
     @FindBy(css = "[for='hobbies-checkbox-2']")
     WebElement reading;
+
     @FindBy(css = "[for='hobbies-checkbox-3']")
     WebElement music;
 
-    public PracticeFormPage selectHobbies(String[] hobby) {
+    public PracticeFormPage selectHobby(String[] hobby) {
         for (int i = 0; i < hobby.length; i++) {
-            if (hobby[i].equals("Sports")) {
+            if(hobby[i].equals("Sports")) {
                 click(sports);
-            }
-            if (hobby[i].equals("Reading")) {
+            } if(hobby[i].equals("Reading")) {
                 click(reading);
-            }
-            if (hobby[i].equals("Music")) {
+            } if(hobby[i].equals("Music")) {
                 click(music);
             }
-
         }
         return this;
     }
@@ -104,7 +107,7 @@ public class PracticeFormPage extends BasePage {
     @FindBy(id = "uploadPicture")
     WebElement uploadPicture;
 
-    public PracticeFormPage apployedFile(String path) {
+    public PracticeFormPage uploadFile(String path) {
         uploadPicture.sendKeys(path);
         return this;
     }
@@ -131,15 +134,15 @@ public class PracticeFormPage extends BasePage {
     WebElement submit;
 
     public PracticeFormPage submit() {
-        click(submit);
+        clickWithJS(submit,0,300);
         return this;
     }
 
-    @FindBy(id = "example-modal-sizes-title-lg" )
+    @FindBy(id = "example-modal-sizes-title-lg")
     WebElement modelTitle;
 
     public PracticeFormPage verifySuccessRegistration(String title) {
-        Assert.assertTrue(shouldHaveText(modelTitle,title,10));
+        Assert.assertTrue(shouldHaveText(modelTitle, title, 5));
         return this;
     }
     @FindBy(css = ".react-datepicker__month-select")
@@ -156,5 +159,4 @@ public class PracticeFormPage extends BasePage {
 
         return this;
     }
-
 }
