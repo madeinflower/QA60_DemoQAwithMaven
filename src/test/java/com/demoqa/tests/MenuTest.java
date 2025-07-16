@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class MenuTest extends TestBase{
 
     @BeforeMethod
-    public void precindition() {
+    public void precondition() {
         new HomePage(driver).getWidgets();
         new SidePanel(driver).getMenu().hideIFrames();
     }

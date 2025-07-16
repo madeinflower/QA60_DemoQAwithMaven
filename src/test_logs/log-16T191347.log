@@ -1,0 +1,273 @@
+19:13:48.621 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:13:55.729 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: moveToMenuTest
+19:13:55.973 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(4)
+19:13:55.973 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:56.327 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(4)
+19:13:56.329 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:57.237 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Menu']
+19:13:57.237 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:57.311 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Menu']
+19:13:57.312 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:58.706 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='Main Item 2']
+19:13:58.707 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:58.751 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='Main Item 2']
+19:13:58.751 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:58.905 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='SUB SUB LIST »']
+19:13:58.905 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:58.948 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='SUB SUB LIST »']
+19:13:58.948 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:59.087 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='Sub Sub Item 1']
+19:13:59.087 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:59.125 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='Sub Sub Item 1']
+19:13:59.126 [Forwarding actions on session a49d1fda84d62945a2772ac9ebcbc2a5 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:59.254 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //a[.='Sub Sub Item 1']
+19:13:59.254 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:59.286 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //a[.='Sub Sub Item 1']
+19:13:59.286 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:13:59.314 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED moveToMenuTest
+19:14:04.348 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: checkAllLinksTest
+19:14:04.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:14:04.547 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:04.713 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:14:04.714 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:05.270 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Links']
+19:14:05.271 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:05.374 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Links']
+19:14:05.374 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:05.736 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:05.736 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:06.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 12
+19:14:06.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:06.053 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED checkAllLinksTest
+19:14:09.793 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: checkBrokenImgTest
+19:14:09.813 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:14:09.814 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:09.850 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:14:09.850 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:10.439 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Broken Links - Images']
+19:14:10.439 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:10.543 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Broken Links - Images']
+19:14:10.543 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:10.984 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:10.984 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:11.143 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:11.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:11.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:11.145 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:11.251 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:11.251 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:11.251 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:11.252 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:11.331 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:11.331 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:11.925 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:11.926 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.018 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:12.018 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.018 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:12.018 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.121 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:12.121 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.328 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:12.329 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.403 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:12.403 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.404 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:12.404 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.457 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:12.458 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.651 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:12.651 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.701 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:12.701 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.701 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:12.701 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.753 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:12.753 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:12.959 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:12.959 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:13.001 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:13.001 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:13.001 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:13.002 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:13.084 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:13.084 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:13.263 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:14:13.264 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:13.312 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:13.313 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:13.313 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED checkBrokenImgTest
+19:14:16.674 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: checkBrokenLinksTest
+19:14:16.715 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:14:16.716 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:16.757 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:14:16.757 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:17.662 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Broken Links - Images']
+19:14:17.662 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:17.706 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Broken Links - Images']
+19:14:17.707 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:17.980 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:17.980 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.076 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.077 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.078 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:18.078 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.207 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.208 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.227 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:18.228 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.302 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.303 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.304 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:18.304 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.381 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.381 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.548 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:18.548 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.610 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.610 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.610 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:18.611 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.658 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.659 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.769 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:18.769 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.839 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.839 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.839 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:18.839 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:18.889 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:18.889 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:19.136 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:19.137 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:19.183 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:19.183 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:19.184 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:19.184 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:19.238 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:19.238 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:19.249 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:14:19.249 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:19.296 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:14:19.296 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:19.297 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED checkBrokenLinksTest
+19:14:22.417 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: loginPositiveTest
+19:14:22.419 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(6)
+19:14:22.419 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:22.443 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(6)
+19:14:22.443 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:22.749 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Login']
+19:14:22.749 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:23.239 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Login']
+19:14:23.239 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:24.535 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:14:24.535 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:24.535 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> click
+19:14:24.535 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:24.537 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text">...</span> is not clickable at point (104, 665). Other element would receive the click: <div id="fixedban" style="width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:9999999">...</div>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db8f26b840554de2020d31439047ee2e, clickElement {id=f.05E819F4700324B86FD48DE12193D07F.d.99879FD50EB76BA8C256E696144B043F.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65096/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (db8f26b840554de2020d31439047ee2e)] -> xpath: //span[.='Login']]
+Session ID: db8f26b840554de2020d31439047ee2e
+19:14:24.537 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:24.537 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> [[ChromeDriver: chrome on windows (db8f26b840554de2020d31439047ee2e)] -> xpath: //span[.='Login']]
+19:14:24.537 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:27.575 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: alertWaitTest
+19:14:27.587 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(3)
+19:14:27.587 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:27.615 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(3)
+19:14:27.616 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:27.902 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Alerts']
+19:14:27.902 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:28.069 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Alerts']
+19:14:28.069 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:28.240 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: timerAlertButton
+19:14:28.241 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:28.418 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: timerAlertButton
+19:14:28.418 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> click
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="timerAlertButton" type="button" class="btn btn-primary">...</button> is not clickable at point (817, 603). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [274c4a628cdb0a352304d9af7f87b489, clickElement {id=f.D74C8A7BEE9A9485072D0954ADFEFA31.d.D8509DEFA68DB4DE852D3F5C6941EDA8.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65152/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (274c4a628cdb0a352304d9af7f87b489)] -> id: timerAlertButton]
+Session ID: 274c4a628cdb0a352304d9af7f87b489
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> [[ChromeDriver: chrome on windows (274c4a628cdb0a352304d9af7f87b489)] -> id: timerAlertButton]
+19:14:29.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:29.549 [main] ERROR com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED alertWaitTest
+19:14:33.602 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: alertWithSelectTest
+19:14:33.871 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(3)
+19:14:33.871 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:34.041 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(3)
+19:14:34.041 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:34.310 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Alerts']
+19:14:34.310 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:34.341 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Alerts']
+19:14:34.341 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:34.522 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: confirmButton
+19:14:34.522 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:34.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: confirmButton
+19:14:34.546 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:35.095 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: confirmResult
+19:14:35.095 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:35.155 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: confirmResult
+19:14:35.155 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:35.223 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED alertWithSelectTest
+19:14:38.629 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: sendMessageToAlert
+19:14:38.639 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(3)
+19:14:38.639 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:38.661 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(3)
+19:14:38.662 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:38.886 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Alerts']
+19:14:38.887 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:39.045 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Alerts']
+19:14:39.045 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:39.173 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: promtButton
+19:14:39.173 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:39.271 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: promtButton
+19:14:39.272 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> click
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="promtButton" type="button" class="btn btn-primary">...</button> is not clickable at point (817, 660). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [835c24e76c0270ef3ce18ccd1d53ddfb, clickElement {id=f.00F0A45A9553A7F35F62E6759C69D3A6.d.B79BBBA05E0C2ADE15E9E782999968CA.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65267/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (835c24e76c0270ef3ce18ccd1d53ddfb)] -> id: promtButton]
+Session ID: 835c24e76c0270ef3ce18ccd1d53ddfb
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> [[ChromeDriver: chrome on windows (835c24e76c0270ef3ce18ccd1d53ddfb)] -> id: promtButton]
+19:14:40.865 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:40.869 [main] ERROR com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED sendMessageToAlert
+19:14:43.822 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: iFrameTest
+19:14:43.830 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(3)
+19:14:43.831 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:43.856 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(3)
+19:14:43.856 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:44.099 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Frames']
+19:14:44.099 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:44.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Frames']
+19:14:44.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:44.377 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.tagName: iframe
+19:14:44.378 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:44.485 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 7
+19:14:44.485 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:14:44.550 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: sampleHeading
+19:14:44.550 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************

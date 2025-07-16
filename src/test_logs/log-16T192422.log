@@ -1,0 +1,21 @@
+19:24:22.886 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:24:26.532 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: toolTipsTest
+19:24:26.557 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(4)
+19:24:26.557 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:26.595 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(4)
+19:24:26.597 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:26.790 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Tool Tips']
+19:24:26.790 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:26.810 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Tool Tips']
+19:24:26.810 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:27.923 [Forwarding actions on session 2700621389c10b5d76829dcac58c7025 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: toolTipButton
+19:24:27.923 [Forwarding actions on session 2700621389c10b5d76829dcac58c7025 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:27.944 [Forwarding actions on session 2700621389c10b5d76829dcac58c7025 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: toolTipButton
+19:24:27.944 [Forwarding actions on session 2700621389c10b5d76829dcac58c7025 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:29.085 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: toolTipButton
+19:24:29.085 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:29.108 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: toolTipButton
+19:24:29.108 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:24:29.128 [main] ERROR com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED toolTipsTest

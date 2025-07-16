@@ -5,7 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import java.time.Duration;
 
 public class ToolTipsPage extends BasePage {
     public ToolTipsPage(WebDriver driver) {
@@ -20,6 +23,8 @@ public class ToolTipsPage extends BasePage {
         pause(1000);
         moveWithJS(0, 200);
         new Actions(driver).moveToElement(toolTipsButton).perform();
+        new WebDriverWait(driver, Duration.ofSeconds(3))
+                .until(d -> toolTipsButton.getDomAttribute("aria-describedby") != null);
         pause(1000);
         return this;
     }

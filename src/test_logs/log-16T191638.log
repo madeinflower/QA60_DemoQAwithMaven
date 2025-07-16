@@ -1,0 +1,45 @@
+19:16:38.893 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:16:42.352 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: loginPositiveTest
+19:16:42.376 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(6)
+19:16:42.377 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:42.401 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(6)
+19:16:42.401 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:42.635 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Login']
+19:16:42.635 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:42.691 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Login']
+19:16:42.691 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.058 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='userName']
+19:16:43.058 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.115 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='userName']
+19:16:43.116 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.209 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='userName']
+19:16:43.209 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.226 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='userName']
+19:16:43.227 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.251 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='userName']
+19:16:43.251 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.266 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='userName']
+19:16:43.266 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.317 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='password']
+19:16:43.317 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:43.358 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='password']
+19:16:43.358 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:44.428 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:16:44.429 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:44.429 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> click
+19:16:44.429 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:44.429 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input required="" autocomplete="off" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&amp;\*])(?=.{8,})$" placeholder="Password" type="password" id="password" class="mr-sm-2 form-control" value=""> is not clickable at point (853, 580). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a84177970c48415479689a10d5ece63d, clickElement {id=f.C9B8276295DD34F8BFA13C0EEE692D90.d.E1979C504637B96AAA8E752E614FB493.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49166/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a84177970c48415479689a10d5ece63d)] -> xpath: //input[@id='password']]
+Session ID: a84177970c48415479689a10d5ece63d
+19:16:44.430 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:44.430 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> [[ChromeDriver: chrome on windows (a84177970c48415479689a10d5ece63d)] -> xpath: //input[@id='password']]
+19:16:44.430 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:16:44.437 [main] ERROR com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED loginPositiveTest

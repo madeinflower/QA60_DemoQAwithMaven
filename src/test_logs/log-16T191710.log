@@ -1,0 +1,45 @@
+19:17:10.981 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:17:14.347 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: loginPositiveTest
+19:17:14.372 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(6)
+19:17:14.372 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:14.398 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(6)
+19:17:14.399 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:14.698 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Login']
+19:17:14.698 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:14.773 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Login']
+19:17:14.773 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:14.870 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='userName']
+19:17:14.870 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:14.889 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='userName']
+19:17:14.889 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:14.954 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='userName']
+19:17:14.954 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:14.986 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='userName']
+19:17:14.986 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='userName']
+19:17:15.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.155 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='userName']
+19:17:15.155 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.249 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='password']
+19:17:15.249 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.266 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='password']
+19:17:15.266 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.309 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='password']
+19:17:15.310 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.325 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='password']
+19:17:15.327 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.352 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //input[@id='password']
+19:17:15.352 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.369 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //input[@id='password']
+19:17:15.369 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.435 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //button[@id='login']
+19:17:15.435 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.451 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //button[@id='login']
+19:17:15.452 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:15.495 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: #userName-value
+19:17:15.495 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:16.823 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: #userName-value
+19:17:16.823 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:16.845 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED loginPositiveTest

@@ -1,0 +1,58 @@
+22:45:04.095 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: keyBoardEventTest
+22:45:04.145 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+22:45:04.145 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.180 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+22:45:04.181 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.352 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Text Box']
+22:45:04.352 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.409 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Text Box']
+22:45:04.409 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.489 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: userName
+22:45:04.490 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.516 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: userName
+22:45:04.516 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.614 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: userName
+22:45:04.615 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.642 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: userName
+22:45:04.642 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.670 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: userName
+22:45:04.670 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.691 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: userName
+22:45:04.691 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.852 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: userEmail
+22:45:04.852 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.872 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: userEmail
+22:45:04.873 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.919 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: userEmail
+22:45:04.919 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.931 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: userEmail
+22:45:04.932 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.956 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: userEmail
+22:45:04.956 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:04.971 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: userEmail
+22:45:04.971 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.053 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: currentAddress
+22:45:05.055 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.106 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: currentAddress
+22:45:05.106 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.224 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: currentAddress
+22:45:05.225 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.257 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: currentAddress
+22:45:05.258 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.281 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: currentAddress
+22:45:05.281 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.296 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: currentAddress
+22:45:05.296 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.389 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: submit
+22:45:05.389 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.411 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: submit
+22:45:05.411 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.465 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .border>#currentAddress
+22:45:05.465 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.520 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .border>#currentAddress
+22:45:05.520 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.541 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .border>#permanentAddress
+22:45:05.542 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.569 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .border>#permanentAddress
+22:45:05.571 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+22:45:05.595 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED keyBoardEventTest

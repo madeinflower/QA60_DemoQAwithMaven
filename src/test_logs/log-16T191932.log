@@ -1,0 +1,13 @@
+19:19:32.940 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:19:37.554 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: jsExecutorTest
+19:19:37.584 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:19:37.584 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:37.636 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:19:37.636 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:37.752 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Text Box']
+19:19:37.752 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:37.773 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Text Box']
+19:19:37.774 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:39.164 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED jsExecutorTest

@@ -1,0 +1,129 @@
+19:19:44.541 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:19:48.129 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: checkAllLinksTest
+19:19:48.171 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:19:48.171 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:48.205 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:19:48.205 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:48.520 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Links']
+19:19:48.520 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:48.547 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Links']
+19:19:48.548 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:48.861 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:48.862 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:49.078 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 12
+19:19:49.078 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:49.084 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED checkAllLinksTest
+19:19:52.319 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: checkBrokenImgTest
+19:19:52.340 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:19:52.341 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:52.377 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:19:52.378 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:52.798 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Broken Links - Images']
+19:19:52.798 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:52.824 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Broken Links - Images']
+19:19:52.824 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:52.956 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:52.957 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.054 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:53.054 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.054 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:53.054 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.104 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:53.104 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.104 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:53.104 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.198 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:53.198 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.506 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:53.507 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.536 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:53.536 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.536 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:53.536 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.568 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:53.568 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.753 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:53.753 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.798 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:53.798 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.798 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:53.799 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:53.834 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:53.835 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.020 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:54.020 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:54.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:54.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.081 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:54.082 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.250 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:54.250 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.285 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:54.285 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.285 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:54.285 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.318 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:54.318 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.501 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: img
+19:19:54.501 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.550 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:54.552 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:54.553 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED checkBrokenImgTest
+19:19:58.005 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: checkBrokenLinksTest
+19:19:58.020 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:19:58.020 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.059 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:19:58.059 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.343 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Broken Links - Images']
+19:19:58.343 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.364 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Broken Links - Images']
+19:19:58.364 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.445 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:58.445 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.489 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:58.489 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.489 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:58.489 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.542 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:58.543 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.549 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:58.549 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.580 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:58.580 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.580 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:58.580 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.623 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:58.624 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.841 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:58.841 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.882 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:58.883 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.883 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:58.883 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:58.945 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:58.945 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:59.051 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.084 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:59.084 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.084 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:59.084 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.117 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:59.119 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.401 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:59.401 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.434 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:59.436 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.436 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:59.436 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.468 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:59.468 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.474 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Before Find ElementsBy.cssSelector: a
+19:19:59.474 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.495 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- List size is 5
+19:19:59.496 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:59.496 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED checkBrokenLinksTest

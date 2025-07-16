@@ -19,7 +19,7 @@ public class AlertsPage extends BasePage {
     WebElement timerAlertButton;
 
     public AlertsPage alertWithTimer() {
-        click(timerAlertButton);
+        clickWithJS(timerAlertButton,0,300);
         new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(ExpectedConditions.alertIsPresent()).accept();
         return this;
@@ -56,7 +56,7 @@ public class AlertsPage extends BasePage {
 
     public AlertsPage sendMessageToAlert(String message) {
 
-        click(promtButton);
+        clickWithJS(promtButton,0,300);
         if(message !=null){
             driver.switchTo().alert().sendKeys(message);
             driver.switchTo().alert().accept();

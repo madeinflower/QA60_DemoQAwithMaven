@@ -1,0 +1,21 @@
+19:21:33.403 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:21:36.747 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: sliderTest
+19:21:36.795 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(4)
+19:21:36.796 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:36.856 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(4)
+19:21:36.856 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:37.177 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Slider']
+19:21:37.177 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:37.203 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Slider']
+19:21:37.203 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:38.363 [Forwarding actions on session 9b70dbaadbf3470eaf90dd71ef2849fd to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .range-slider
+19:21:38.363 [Forwarding actions on session 9b70dbaadbf3470eaf90dd71ef2849fd to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:38.383 [Forwarding actions on session 9b70dbaadbf3470eaf90dd71ef2849fd to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .range-slider
+19:21:38.383 [Forwarding actions on session 9b70dbaadbf3470eaf90dd71ef2849fd to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:38.788 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .range-slider
+19:21:38.788 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:38.806 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .range-slider
+19:21:38.806 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:21:38.823 [main] ERROR com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED sliderTest

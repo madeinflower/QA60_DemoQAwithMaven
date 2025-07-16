@@ -12,16 +12,15 @@ public class LoginTests extends TestBase {
     private LoginPage loginPage;
 
     @BeforeMethod
-    public void precondition(){
+    public void precondition() {
         new HomePage(driver).getBookStore();
-        new SidePanel(driver).selectLogin();
+        new SidePanel(driver).hideFixedBanner().selectLogin();
     }
 
     @Test
     public void loginPositiveTest(){
         new LoginPage(driver).enterUserData("loveoflive", "t101520A_%").clickOnLoginButton();
         new ProfilePage(driver).verifyUserName("loveoflive");
-
     }
 
 

@@ -13,6 +13,8 @@ import com.demoqa.pages.widgets.MenuPage;
 import com.demoqa.pages.widgets.SelectMenuPage;
 import com.demoqa.pages.widgets.SliderPage;
 import com.demoqa.pages.widgets.ToolTipsPage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,7 +30,7 @@ public class SidePanel extends BasePage{
 
     public LoginPage selectLogin() {
         //clickWithJS (login, 0, 600) - use this line instead of the next if JavaExecutor is used in HomePage class
-        click(login);
+        clickWithJS(login,0 ,600);
         return new LoginPage(driver);
     }
 
@@ -142,5 +144,18 @@ public class SidePanel extends BasePage{
         click(practiceForm);
 
         return new PracticeFormPage(driver);
+    }
+
+    public SidePanel hideFixedBanner() {
+        try {
+            WebElement banner = driver.findElement(By.id("fixedban"));
+            if (banner.isDisplayed()) {
+                JavascriptExecutor js = (JavascriptExecutor) driver;
+                js.executeScript("arguments[0].style.display='none';", banner);
+            }
+        } catch (Exception e) {
+            // Баннер не найден - ничего не делаем
+        }
+        return this;
     }
 }

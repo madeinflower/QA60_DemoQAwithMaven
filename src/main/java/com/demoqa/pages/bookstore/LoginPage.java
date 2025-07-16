@@ -20,13 +20,13 @@ public class LoginPage extends BasePage {
 
 
     public LoginPage enterUserData(String userName, String password) {
-        type(user,userName);
-        type(passwordField,password);
+        typeWithJS(user,userName,0,300);
+        typeWithJS(passwordField,password,0,300);
         return this;
     }
 
     public ProfilePage clickOnLoginButton() {
-        loginButton.click();
+        clickWithJS(loginButton,0,300);
         return new ProfilePage(driver);
     }
 }

@@ -1,0 +1,25 @@
+19:19:03.747 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:19:06.925 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: actionDragMeTest
+19:19:07.101 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(5)
+19:19:07.101 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:07.184 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(5)
+19:19:07.184 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:07.393 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Droppable']
+19:19:07.393 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:07.426 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Droppable']
+19:19:07.426 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:08.598 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: draggable
+19:19:08.598 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:08.632 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: draggable
+19:19:08.632 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:08.633 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: droppable
+19:19:08.633 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:08.657 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: droppable
+19:19:08.657 [Forwarding actions on session 596a57ba08154c173b1c3785ef2ccdaa to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:08.942 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: droppable
+19:19:08.942 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:08.964 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: droppable
+19:19:08.964 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:19:08.983 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED actionDragMeTest

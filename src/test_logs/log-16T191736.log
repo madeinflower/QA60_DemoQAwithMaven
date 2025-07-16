@@ -1,0 +1,215 @@
+19:17:37.260 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:17:40.637 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: alertWaitTest
+19:17:40.691 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(3)
+19:17:40.691 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:40.725 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(3)
+19:17:40.726 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:40.886 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Alerts']
+19:17:40.887 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:40.970 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Alerts']
+19:17:40.970 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.048 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: timerAlertButton
+19:17:41.048 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.068 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: timerAlertButton
+19:17:41.069 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.142 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:41.142 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.142 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:41.142 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.143 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:41.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@4d774249
+19:17:41.144 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.660 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:41.660 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.660 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:41.660 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.660 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:41.660 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:41.660 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@408b87aa
+19:17:41.661 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.185 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:42.185 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.185 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:42.186 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.186 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:42.186 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.186 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@1f6d27cc
+19:17:42.186 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.695 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:42.696 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.696 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:42.696 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.696 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:42.696 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:42.696 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@49293b43
+19:17:42.696 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@6df3e44c
+19:17:43.215 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@460510aa
+19:17:43.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.243 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:44.244 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.244 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:44.244 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.244 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:44.244 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.244 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@557286ad
+19:17:44.244 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.764 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:44.764 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.764 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:44.764 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.764 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:44.764 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:44.765 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@4682eba5
+19:17:44.765 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@f4c0e4e
+19:17:45.298 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.824 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:45.824 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.824 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> alert
+19:17:45.824 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.824 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5e85f4f3901115b949b30147673ce6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49322/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5e85f4f3901115b949b30147673ce6
+19:17:45.826 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:45.826 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@25c53f74
+19:17:45.826 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:46.373 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED alertWaitTest
+19:17:49.137 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: alertWithSelectTest
+19:17:49.150 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(3)
+19:17:49.150 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.170 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(3)
+19:17:49.170 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.259 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Alerts']
+19:17:49.260 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.300 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Alerts']
+19:17:49.300 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.424 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: confirmButton
+19:17:49.424 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.444 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: confirmButton
+19:17:49.444 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.553 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: confirmResult
+19:17:49.553 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.584 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: confirmResult
+19:17:49.584 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:49.608 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED alertWithSelectTest
+19:17:52.384 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: sendMessageToAlert
+19:17:52.393 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(3)
+19:17:52.394 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:52.416 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(3)
+19:17:52.416 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:52.699 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Alerts']
+19:17:52.700 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:52.730 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Alerts']
+19:17:52.731 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:53.020 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: promtButton
+19:17:53.020 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:53.064 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: promtButton
+19:17:53.064 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:54.353 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Test has a problem
+19:17:54.353 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:54.353 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Method --> click
+19:17:54.353 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:54.354 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- TargetException --> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="promtButton" type="button" class="btn btn-primary">...</button> is not clickable at point (817, 660). Other element would receive the click: <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" width="970" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" aria-label="Advertisement" tabindex="0" allow="private-state-token-redemption;attribution-reporting" data-load-complete="true" style="border: 0px; vertical-align: bottom;" data-google-container-id="1"></iframe>
+  (Session info: chrome=138.0.7204.98)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a079f0e59136f2e0aa9a069a6cbacdd, clickElement {id=f.1F125D32D9709F22460F29F98F04CCD8.d.9FDD7DBEFB7D382984BD670B7136EA82.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.98, chrome: {chromedriverVersion: 138.0.7204.97 (14f98e519099..., userDataDir: C:\Users\Tetiana\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49687}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49687/devtoo..., se:cdpVersion: 138.0.7204.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0a079f0e59136f2e0aa9a069a6cbacdd)] -> id: promtButton]
+Session ID: 0a079f0e59136f2e0aa9a069a6cbacdd
+19:17:54.354 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:54.354 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- Object target --> [[ChromeDriver: chrome on windows (0a079f0e59136f2e0aa9a069a6cbacdd)] -> id: promtButton]
+19:17:54.354 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:17:54.363 [main] ERROR com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: FAILED sendMessageToAlert

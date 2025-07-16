@@ -62,15 +62,15 @@ public class TextBoxPage extends BasePage {
     WebElement userEmail;
 
     public TextBoxPage enterData(String name, String email) {
-        type(userName, name);
-        type(userEmail, email);
+        typeWithJS(userName, name,0,300);
+        typeWithJS(userEmail, email,0,300);
         return this;
     }
     @FindBy(id = "currentAddress")
     WebElement currentAddress;
 
     public TextBoxPage keyBoardEvent(String address) {
-        type(currentAddress, address);
+        typeWithJS(currentAddress, address,0,300);
         Actions actions = new Actions(driver);
         // select current address
         actions.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();

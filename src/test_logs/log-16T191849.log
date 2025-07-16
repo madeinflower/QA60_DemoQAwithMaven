@@ -1,0 +1,31 @@
+19:18:50.067 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Tetiana\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+19:18:53.290 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: doubleClickTest
+19:18:53.324 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:18:53.324 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:53.422 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:18:53.423 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:53.645 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Buttons']
+19:18:53.646 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:53.694 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Buttons']
+19:18:53.694 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:53.801 [Forwarding actions on session 7990f45cd3910e8e7554f9b6890142ae to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: doubleClickBtn
+19:18:53.801 [Forwarding actions on session 7990f45cd3910e8e7554f9b6890142ae to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:53.820 [Forwarding actions on session 7990f45cd3910e8e7554f9b6890142ae to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: doubleClickBtn
+19:18:53.820 [Forwarding actions on session 7990f45cd3910e8e7554f9b6890142ae to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:54.025 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED doubleClickTest
+19:18:56.887 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Start test: rightClickTest
+19:18:56.906 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.cssSelector: .card:nth-child(1)
+19:18:56.907 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:56.950 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.cssSelector: .card:nth-child(1)
+19:18:56.951 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:57.112 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.xpath: //span[.='Buttons']
+19:18:57.113 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:57.137 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.xpath: //span[.='Buttons']
+19:18:57.137 [main] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:57.445 [Forwarding actions on session ac3b260b0d90d748019b0b6b19762662 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator will find By.id: rightClickBtn
+19:18:57.445 [Forwarding actions on session ac3b260b0d90d748019b0b6b19762662 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:57.482 [Forwarding actions on session ac3b260b0d90d748019b0b6b19762662 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- The locator is By.id: rightClickBtn
+19:18:57.483 [Forwarding actions on session ac3b260b0d90d748019b0b6b19762662 to remote] INFO  com.demoqa.utils.MyListener -%PARSER_ERROR[kvp]- *********************************
+19:18:57.724 [main] INFO  com.demoqa.tests.TestBase -%PARSER_ERROR[kvp]- Test result: PASSED rightClickTest
